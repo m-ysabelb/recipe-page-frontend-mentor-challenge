@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, h1, li span {
+    color: #302d2c;
+}
+
+li, li span {
+    font-weight: normal;
+}
+
+h1, .recipe-container {
+    font-weight: 400;
+}
+
+h2, li, .nutritional-value {
+    color: #854632;
+}
+
+hr, .invisible-divider {
+    border: none;
+}
+
+img, table {
+    width: 100%;
+}
+
+h1, li span, .recipe-container {
+    font-style: normal;
+}
+
+.recipe-container, .invisible-divider {
+    background-color: #ffffff;
+}
+
+.recipe-container, .inner-container h3 ul li span {
+    line-height: normal;
+} 
+
+li span.emphasized-words, ol li, .nutritional-value {
+    font-weight: bold;
+}
+
+.invisible-divider, #last-table-value {
+    border-bottom-width: 0;
+}
+
+body {
+    background-color: #f3e6d8;
+    display: grid;
+    place-content: center;
+}
+
+img {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    border-radius: 0.6rem;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    margin-top: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #7b284f;
+    margin-top: 0.4rem;
+    margin-bottom: 0.8rem;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e4ded8;
+}
+
+hr {
+    height: 1px;
+    background-color: #e4ded8;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-container {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 600px;
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+}
+
+.inner-container {
+    background-color: #fff5fa;
+    line-height: 0.9rem;
+    margin: 0px 5px 40px;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.attribution {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+    body {
+        display: column;
+        place-content: center;
+    }
+
+    img {
+        display: block;
+    }
+
+    .recipe-container {
+        display: flex;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        border-radius: 0;
+    }
+}
