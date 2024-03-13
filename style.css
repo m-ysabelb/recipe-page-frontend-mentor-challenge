@@ -61,12 +61,17 @@ img {
     border-radius: 0.6rem;
 }
 
-h1 {
+h1, h2 {
     font-family: "Young Serif", serif;
+}
+
+h1 {
+    font-weight: 400;
     margin-top: 1.5rem;
 }
 
 h2 {
+    font-weight: 100;
     margin-top: 1.7rem;
     margin-bottom: 1rem;
 }
@@ -117,7 +122,7 @@ hr {
     background-color: #fff5fa;
     line-height: 0.9rem;
     margin: 0px 5px 40px;
-    padding: 1.2rem;
+    padding: 1.5rem;
     border-radius: 0.5rem;
 }
 
@@ -132,20 +137,39 @@ hr {
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 375px) {
-    body {
-        display: column;
-        place-content: center;
+@media (max-width: 520px) {
+    h1 {
+        margin-top: 2rem;
     }
 
     img {
-        display: block;
+        padding: 0;
+        margin: 0;
     }
 
     .recipe-container {
-        display: flex;
-        font-family: "Outfit", sans-serif;
-        font-optical-sizing: auto;
+        padding: 0;
+        margin: 0;
         border-radius: 0;
+    }
+
+    .text-content {
+        padding: 0 2rem;
+    }
+
+    .recipe-container img {
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .attribution {
+        margin-top: 32px;
+        margin-bottom: 15px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #ffffff;
     }
 }
