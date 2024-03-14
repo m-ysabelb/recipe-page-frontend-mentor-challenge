@@ -1,6 +1,6 @@
-# Frontend Mentor - Recipe page Solution Documentation by @m-ysabelb
+# Recipe Page Documentation by @m-ysabelb
 
-This is a written solution documentation of my [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help to improve coding skills by building realistic projects. 
+This is the documentation of my [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help to improve coding skills by building realistic projects.
 
 
 ## Table of contents
