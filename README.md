@@ -146,7 +146,7 @@ This section is an outline areas of things I want to focus on in future projects
 ### References
 The following are resources that helped me in completing this project.
 
-- [HTML hr tag](https://www.w3schools.com/tags/tag_hr.asp#:~:text=The%20element%20is%20most,change)%20in%20an%20HTML%20page)
+- [HTML hr tag](https://www.w3schools.com/tags/tag_hr.asp#:~:text=The%20element%20is%20most,change)
 - [HTML tables](https://www.w3schools.com/html/html_tables.asp)
 - [Change the hr color](https://www.tutorialrepublic.com/faq/how-to-change-the-color-of-an-hr-element-using-css.php#:~:text=You%20can%20simply%20use%20the,value%20of%20the%20height%20property.)
 - [How to Bold a word in a sentence](https://stackoverflow.com/questions/9058425/how-to-bold-words-within-a-paragraph-in-html-css)(https://smallbusiness.chron.com/bold-word-sentence-css-45432.html)
