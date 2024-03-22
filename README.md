@@ -1,13 +1,12 @@
-# Recipe Page Documentation by @m-ysabelb
+# Frontend Mentor - Social links profile solution
 
-This is the documentation of my [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help to improve coding skills by building realistic projects.
-
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot of the Solution](#screenshot)
+  - [Screenshot of the solution](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -15,39 +14,38 @@ This is the documentation of my [Recipe page challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [References](#references)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgment](#acknowledgment)
 
 ## Overview
-This challenge focuses on writing semantic HTML and think through the most appropriate HTML elements for each piece of content. This challenge is also a good practice for writing HTML and CSS code.
-
+This small project enables to build out an interface of a social link-sharing profile. The designs were given to get your personalized social link look as close to it as possible.
 
 ### The challenge
-[Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
+Users should be able to:
+- See hover and focus states for all interactive elements on the page
 
-### Screenshot of the Solution
-[Desktop view](./screenshots/Simple%20Omelette%20Recipe%20-%20Desktop%20view.png)
+[Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
 
-[Mobile view](./screenshots/Simple%20Omelette%20Recipe%20-%20Mobile%20view.png)
+### Screenshot of the solution
+[Desktop view](./screenshots/Desktop%20view%20-%20Social%20Links%20Profile.png)
+
+[Mobile view](./screenshots/Mobile%20view%20-%20Social%20Links%20Profile.png)
 
 ### Links
-[Solution URL](https://github.com/m-ysabelb/recipe-page-frontend-mentor-challenge)
+[Solution URL](https://github.com/m-ysabelb/social-links-profile-frontend-mentor-challenge)
 
-[Live Site URL](https://m-ysabelb.github.io/recipe-page-frontend-mentor-challenge/)
+[Live site URL here](https://m-ysabelb.github.io/social-links-profile-frontend-mentor-challenge/)
 
 ## My process
-- ### Plan by looking at the snapshot of the expected outcome
-  From the snapshot, I formulated a basic draft outline on what HTML elements will be used. This includes the text-sizes, the placement, the alignment, and any other properties considered. As for the CSS, I referred to the given style guide in formulating possible properties. Its preparation includes conversion of HSL color codes to HEX and finding the correct fonts from the Google Fonts
+- # Plan and code.
+ By my first look to the designs, I presumed that this project will be tough and it will take me much time to finish it due to multiple styles. I started the project by creating its HTML structure. This part, as I can say, is the least time consumed compared to the other parts of the process.
 
-- ### Create and code the draft.
-  I usually plan on paper so in this step, I started creating my draft through coding the plan into the Visual Studio software. I included the corresponding image and text to the structured format. As I finished doing the HTML part, I moved onto the CSS, which I find the most challenging to finish in a little amount of time. I struggled on matching the exact colors, font-weights, spacings, alignment, and what I call 'the newly-encountered' properties to me since I am not yet versatile at coding CSS. Nonetheless, I still managed to make the website look as it should be with the help of Google, coding websites, and YouTube.
+- # Style the components.
+ After the HTML, I proceeded to CSS where fonts, sizes, colors, spacings, and other properties were involved. Most of the time were spent on this part because the design involves a lot of styling in order to achieve the expected look, and this is also my struggle since only few basic elements and properties were familiar to me. One of the things I struggled is how to make my project perform effectively as a mobile-responsive website should. As a result, I solved the problem through using the spacings, margins, and paddings--the basic elements I completely have a knowledge on. Google and YouTube were also my company during this researching times.
 
-- ### Test and try it for several times.
-  Completing the whole code does not necessarily mean that your work is done. You need to look at it for several times, search for its flaws, and compare your output code if it already looks vastly similar to the given design. Your keen observation and attention to detail will be trained in this part. Also, your critical skills on how to solve the identified areas for improvement.
+- # Test and try it for several times.
+  This part was done simultaneously together with my trial and error phases of styling the project because there were a lot of times where I was unsatisfied of the look, especially its performance on mobiles. After hundreds of trial and error tests, I finally achieved of making it look similarly as expected. In future projects, I can say that 'Mobile-first Responsive design' is a vital part I need to practice on.
 
-- ### Release program.
-  Personally, I prefer doing all stated steps before proceeding into this last one but for this challenge, I released my code twice due to multiple iterations of the aforementioned steps. I did it to track my progress everytime I code.
-
-  In conclusion, either finalizing everything before publishing or releasing and updating it as you make progress will work. However, in my opinion, I can say that the latter option takes more time than the first.
+- # Deploy the project.
 
 ### Built with
 - Semantic HTML5 markup
@@ -58,110 +56,67 @@ This challenge focuses on writing semantic HTML and think through the most appro
 
 ### Code Snippet Takeaways
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <--- declared in the HTML head to display site properly based on user's device
-
-<img class="can be included in a class" id="can also be given an id name" src="./folder-name/another-folder-name/filename.file-extension" alt="">
-
-<div class="can be included for every element for easeness of multiple styling in CSS"> </div>
-
-<hr id="this is a horizontal line divider">
-
-<p> Use <span> span </span> to make a selected word or phrase in a sentence styled. </p>
-
-<table id="syntax needed for creating a table">
-  <tr id="this creates a single row">
-  <th id="this creates the emphasized heading of the table">
-  <td id="used for inputting data in the table">
-</table>
-
+  <main div class="new-class">
+    <!--I saw this tag across tutorials/websites usually placed at the beginning in the body, so I try implementing it in this code.
+    Moreover, content included in this tag demonstrates the main content of a document that is not a descendant of any element-->
+  </main>
 ```
 
 ```css
-  /*declared at the start of CSS*/
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  /*Specifying multiple elements sharing the same property*/
-  element1, element2 {
-  property1: specification;
-  }
-
-  /*example*/
-  h2, li, .nutritional-value {
-    color: #854632;
-  }
-
-  /*can be used if you want to hide the bottom divider of the table*/
+/**padding shorthand**/
   element {
-    border-bottom-width: 0;
+    padding: top right bottom left; /**measures either in px, rem, or em**/
   }
 
-  /*syntax to insert code for mobile-first responsive design*/
-  @media (max-width: 520px) /*declaration means that the following code will take effect if width is 520px and below*/
-  {
-      element {
-        property: value;
-      }
+/**min-height has vh value that means viewport height**/
+/*snippet from the code*/
+body {
+    background-color: #141414;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+/**100vh = 100% of the viewport height**/
+
+/**setting the image into a clean circle format (esp for social profiles) should set its border-radius into 50%**/
+  img {
+    border-radius: 50%;
   }
 
-  /*the following is a snippet from the actual code. it made me realized that if you want to extend the content to the sides or top and below of the mobile view, just set the property (especially the paddings and margins) into zero
-  
-  yet I believe it is not applicable in some cases
-  */
-  @media (max-width: 520px) {
-    img {
-        padding: 0;
-        margin: 0;
-    }
+/**add :hover if you want to change the button state as hovered**/
+ button:hover {
+    background-color: #c5f82a; /**set the bg color of the button to lime green**/
+    color: #ffffff; /**set the text color into white**/
+    cursor: pointer; /**change the cursor view into a pointer as hovered**/
+ }
 
-    .recipe-container {
-        padding: 0;
-        margin: 0;
-        border-radius: 0;
-    }
-
-    .text-content {
-        padding: 0 2rem;
-    }
-
-    .recipe-container img {
-        padding: 0;
-        border-radius: 0;
-    }
-
+/**syntax for mobile-responsive**/
+@media (max-width: 350px) { /**the following code will take effect if viewport width is 350 and below**/
+  element {
+    property: value;
+  }
+}
 ```
 
 ### Continued development
-This section is an outline areas of things I want to focus on in future projects.
+These are the things that I want to work on in future projects:
 
-- Semantic HTML5 markup
 - Get used with CSS Styling and Properties
+- Flexbox techniques
 - Mobile-first responsive design
-- Improve code composability and readability
-- Providing documentation to a finished coding project
+- CSS and display properties
 
 ### References
-The following are resources that helped me in completing this project.
-
-- [HTML hr tag](https://www.w3schools.com/tags/tag_hr.asp#:~:text=The%20element%20is%20most,change)
-- [HTML tables](https://www.w3schools.com/html/html_tables.asp)
-- [Change the hr color](https://www.tutorialrepublic.com/faq/how-to-change-the-color-of-an-hr-element-using-css.php#:~:text=You%20can%20simply%20use%20the,value%20of%20the%20height%20property.)
-- [How to Bold a word in a sentence](https://stackoverflow.com/questions/9058425/how-to-bold-words-within-a-paragraph-in-html-css)(https://smallbusiness.chron.com/bold-word-sentence-css-45432.html)
-- [CSS tables](https://www.w3schools.com/css/css_table.asp)
-- [CSS display property](https://www.w3schools.com/css/css_display_visibility.asp)
-- [CSS font weight property](https://www.w3schools.com/cssref/pr_font_weight.php)
-- [CSS font weight property](https://www.w3schools.com/cssref/pr_font_weight.php)
-- [Change the bullet color/use of span](https://www.geeksforgeeks.org/how-to-change-the-color-of-bullets-using-css/)
-- [Change spacing between paragraphs](https://stackoverflow.com/questions/41253908/changing-spacing-between-paragraphs-and-inside-of-paragraphs)
-- [CSS margin](https://www.w3schools.com/css/css_margin.asp)
-- [Mobile-first CSS](https://medium.com/@pete.davis/mobile-first-css-89d16c91e6b3)
+- [How to resize image using CSS](https://www.browserstack.com/guide/how-to-resize-image-using-css)
+- [min-height in CSS](https://www.shecodes.io/athena/4773-what-is-the-meaning-of-min-height-100vh-in-css#google_vignette)
 - [Fonts](fonts.google.com)
 - [HSL to HEX](https://htmlcolors.com/hsl-to-hex)
-- [Recipe Page Solution tutorial 1](https://www.youtube.com/watch?v=wF2DLQGeJS0)
-- [Recipe Page Solution tutorial 2](https://www.youtube.com/watch?v=JeagPId2y54)
+- [Social Links Profile Solution tutorial 1](https://www.youtube.com/watch?v=PlUOMi23qAc)
+- [Social Links Profile Solution tutorial 2](https://www.youtube.com/watch?v=JHWT_V9pYu8&t=250s)
+- [Supplementary Tutorial 3](https://www.youtube.com/watch?v=9FNNkzPBFcE)
 
 ## Author
 - GitHub - [@m-ysabelb](https://github.com/m-ysabelb)
@@ -171,8 +126,7 @@ The following are resources that helped me in completing this project.
 Special thanks to the author of the resources mentioned in the references section, specifically:
 - Google
 - YouTube
-- Stack Overflow
-- w3schools
-- geeksforgeeks
+- Browser Stack
+- SheCodes
 
 Their documentation, articles, and tutorials have been beneficial for the overall completion of this simple project.
